@@ -1,0 +1,119 @@
+body html{
+    height: 100%;
+    
+}
+
+.container{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(22, 18, 18);
+    gap: 20px;
+    padding: 20px;
+    border: 5px solid rgb(162, 162, 172);
+}
+
+.modal1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+h1 {
+    color: white;
+    font-size: large;
+    font-family: 'Courier New', Courier, monospace;
+    padding: 20px;
+}
+
+.pesquisa, .messenger, .sino{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    fill: white;
+    background-color: rgb(66, 64, 64);
+    border: 1px solid black;
+    padding: 5px;
+    border-radius: 20px;
+    height: 35px;
+    width: 35px;
+    padding: 0;
+    gap: 20px;
+} 
+
+
+.modal2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    gap: 20px;
+}
+
+
+.notificaçao{
+    position: relative;
+
+}
+span{
+    display: flex;
+    background-color: red;
+    position: absolute;
+    z-index: 2;
+    top: -8px;
+    right:-5px;
+    border-radius: 5px;
+    padding: 0px;
+    color: white;
+    gap: 5px;
+
+
+}
+
+
+.imagem{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    height: 100%;
+}
+   
+
+
+
+.carro {
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSfhVdI0FxDS2N0sqI8b9Dm_H2vK19hHptpetvbBg33KQ&s');
+    background-size: cover;
+    height: 35px;
+    width: 35px;
+    clip-path: circle(50%);
+    
+   
+}
+
+.flecha{
+    display: flex;
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    fill: white;
+    background-color: rgb(66, 64, 64);
+    border: 1px solid black;
+    padding: 5px;
+    border-radius: 20px;
+    padding: 0;
+    gap: 20px;
+    bottom: 4px;
+    right: -5px;
+    
+    
+
+
+}
+
+
+
+
+
